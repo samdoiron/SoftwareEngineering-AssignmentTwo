@@ -13,6 +13,8 @@ public class Validator {
     public boolean isValid() {
         return !password.equalsIgnoreCase("password")
                 && password.length() >= MIN_LENGTH
+                
+                // Markers note: this is two rules (numbers, non-terminal numbers)
                 && passwordContainsNonterminalNumbers()
                 && passwordHasMixedCasing();
     }
