@@ -29,34 +29,9 @@ class ValidatorTest {
         assertInvalid("PaSsWoRd");
     }
 
-    @Test
-    void passwordMustContainANumber() {
-        assertInvalid("A really long password with no number.");
-        assertValid("Another password with 1 number in it.");
-    }
-
-    @Test
-    void passwordMustContainMixedCasing() {
-        assertInvalid(validPassword().toLowerCase());
-        assertInvalid(validPassword().toUpperCase());
-    }
-
-    @Test
-    void numbersAtTheEndDoNotCount() {
-        assertInvalid("A really long password with the number 1");
-        assertValid(validPassword() + '1');
-    }
-
-    private String validPassword() {
-        return otherwiseValidPasswordWithLength(Validator.MIN_LENGTH);
-    }
-
     private String otherwiseValidPasswordWithLength(int length) {
         StringBuilder builder = new StringBuilder();
-        builder.append('1'); // Must contain digit
-        builder.append('A'); // Must contain mixed casing
-
-        for (int i = 0; i < length - 2; i++) {
+        for (int i = 0; i < length ; i++) {
             builder.append('a');
         }
         return builder.toString();

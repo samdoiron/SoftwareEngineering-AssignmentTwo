@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dba34d6d-6899-43e2-95e3-5023a2f5c069" name="Default" comment="" />
+    <list default="true" id="dba34d6d-6899-43e2-95e3-5023a2f5c069" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Validator.java" afterPath="$PROJECT_DIR$/src/Validator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidatorTest.java" afterPath="$PROJECT_DIR$/src/ValidatorTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Validator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Validator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,15 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ValidatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
-              <folding>
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +68,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/Validator.java" />
+        <option value="$PROJECT_DIR$/src/ValidatorTest.java" />
       </list>
     </option>
   </component>
@@ -273,9 +273,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_AssignmentTwo - 2018.02.08 at 09h 28m 14s.xml">
-      <configuration name="All in AssignmentTwo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_AssignmentTwo - 2018.02.08 at 09h 29m 13s.xml">
       <configuration name="All in AssignmentTwo" configurationId="JUnit" />
     </history-entry>
@@ -301,6 +298,9 @@
       <configuration name="All in AssignmentTwo" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_AssignmentTwo - 2018.02.09 at 22h 05m 05s.xml">
+      <configuration name="All in AssignmentTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_AssignmentTwo - 2018.02.09 at 22h 12m 57s.xml">
       <configuration name="All in AssignmentTwo" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -358,10 +358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -373,24 +370,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Validator.java">
+    <entry file="file://$PROJECT_DIR$/src/ValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
